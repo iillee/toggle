@@ -1,0 +1,39 @@
+{
+  "display": {
+    "title": "DCL Scene",
+    "description": "My new Decentraland project",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels":["4,6","5,6","6,6",
+               "4,5","5,5","6,5",
+               "4,4","5,4","6,4"],
+    "base": "4,4"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 24,
+        "y": 0,
+        "z": 24
+      },
+      "cameraTarget": {
+        "x": 24,
+        "y": 1,
+        "z": 28
+      }
+    }
+  ],
+  "requiredPermissions": [],
+  "featureToggles": {}
+}
